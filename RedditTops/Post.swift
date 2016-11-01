@@ -10,6 +10,7 @@ import Foundation
 import UIKit
 
 class  Post: NSObject {
+    var id:String
     var title:String
     var thumbnail:String
     var author:String
@@ -18,6 +19,7 @@ class  Post: NSObject {
     var subReddit:String
     
     override init() {
+        self.id = ""
         self.title = ""
         self.thumbnail = ""
         self.author = ""
